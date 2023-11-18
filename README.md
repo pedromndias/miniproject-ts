@@ -1,0 +1,2 @@
+To start a TypeScript project from zero type "tsc --init". Then we create a "dist" and "src" folders and an "index.ts" file. On the tsconfig.json we specify the "outDir" value as "./dist", and add ' "include": ["src"]' at the end so it compiles the files from that folder.
+To run the app we can type "tsc -w" (for watch mode).
